@@ -2,9 +2,21 @@ Elanco Tick Sightings Tracker (MVP)
 
 Created by Muhammad Isfahan
 
+### Live Demo
+
+You can open the live version of the Tick Sightings Tracker here:
+https://isfahankb.github.io/elanco-tick-sightings-mvp/
+
+The site loads instantly in the browser and includes the interactive map, filtering system and the details panel.
+
+### Preview
+
+A screenshot of the live app will appear here once added.  
+The image will be stored inside the `screenshots` folder in this repository.
+
+![Tick Sightings Tracker Preview](screenshots/map.png)
+
 Overview
-
-
 
 This project is a small MVP called the Elanco Tick Sightings Tracker. I built it to show how tick activity across the UK can be visualised in a simple and useful way. Instead of treating this task like a coding exercise, I approached it as a complete mini data product. The focus is on clarity, ease of use and giving pet owners and vets something meaningful.
 
@@ -129,4 +141,5 @@ I really enjoyed building this small MVP. It brings together data, design and cl
 
 
 Thank you for reviewing my work.
+
 
