@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Elanco Tick Sightings Tracker – MVP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Leaflet CSS (for the map) -->
+  <link
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+ />
+
+
+  <!-- Our styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <h1>Elanco Tick Sightings Tracker (MVP)</h1>
+      <p>Helping UK pet owners and vets understand tick activity.</p>
+    </div>
+    <span class="badge">Data Analyst Placement – Muhammad Isfahan</span>
+  </header>
+
+  <main class="app-main">
+    <!-- LEFT: Map + Filters -->
+    <section class="panel">
+      <div class="section-title">Interactive map & filters</div>
+
+      <div class="filters-row">
+        <input type="date" id="startDate" aria-label="Start date" />
+        <input type="date" id="endDate" aria-label="End date" />
+        <select id="speciesFilter" aria-label="Species filter">
+          <option value="all">All species</option>
+        </select>
+        <select id="locationFilter" aria-label="Location filter">
+          <option value="all">All locations</option>
+        </select>
+        <button id="applyFiltersBtn" class="primary">Apply</button>
+      </div>
+
+      <div id="map"></div>
+    </section>
+
+    <!-- RIGHT: Details + Education + Report form -->
+    <section class="panel right-panel">
+      <div id="sightingDetails"></div>
+      <div id="educationSection"></div>
+      <div id="reportFormSection"></div>
+    </section>
+  </main>
+
+  <!-- Leaflet JS (for the map) -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+  <!-- Our JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
