@@ -1,5 +1,4 @@
 // ---- SAMPLE SIGHTING DATA ----
-// In your README you can say: "This structure can be swapped with real API data."
 const sampleSightings = [
   {
     id: 1,
@@ -246,7 +245,7 @@ function renderReportForm() {
       return;
     }
 
-    // Here you would POST to your own backend.
+
     console.log("New sighting submitted:", {
       date,
       time,
